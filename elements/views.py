@@ -13,22 +13,22 @@ def Form(request):
     return render(request, 'html/form.html', {})
 
 def Abilities(request):
-    return render(request, 'html/elements/abilities.html', {})
+    return render(request, 'html/wither/abilities.html', {})
 
 def Counter(request):
-    return render(request, 'html/elements/counter.html', {})
+    return render(request, 'html/wither/counter.html', {})
 
 def Heal(request):
-    return render(request, 'html/elements/healing.html', {})
+    return render(request, 'html/wither/healing.html', {})
 
 def Intel(request):
-    return render(request, 'html/elements/intel.html', {})
+    return render(request, 'html/wither/intel.html', {})
 
 def Recomb(request):
-    return render(request, 'html/elements/recombulate.html', {})
+    return render(request, 'html/wither/recombulate.html', {})
 
 def Soulsteal(request):
-    return render(request, 'html/elements/soulsteal.html', {})
+    return render(request, 'html/wither/soulsteal.html', {})
 
 def Survive(request):
-    return render(request, 'html/elements/survive.html', {})
+    return render(request, 'html/wither/survive.html', {})
