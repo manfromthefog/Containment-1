@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Information</title>
+        <link rel="icon" href="../static/images/logo_images/sky_icon.jpg">
+    </head>
+    <body>
+        
+        <form onsubmit="return confirm('Do you really want to submit the form?');" action="http://127.0.0.1:8000/submit/">
+
+            <fieldset>
+                <legend><h2>Contact Us!</h2></legend>
+
+                <p><h3>Personal Information</h3></p>
+
+                Name (Optional): <input type="text" placeholder="Jo Mama"> &#160;
+                Age (Optional): <input type="text" placeholder="13">
+
+                <br><br>
+                Email (Optional): <input type="text" placeholder="text#@thing.com">
+
+                <br><br><hr><br>
+
+                Gender:<br> 
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female 
+                <input type="radio" name="gender"> Other
+
+                <br><br>
+
+                On a scale of 1~10, how successful are you in relationship bulding?<br> 
+                <input type="radio" name="rscale"> 1
+                <input type="radio" name="rscale"> 2
+                <input type="radio" name="rscale"> 3
+                <input type="radio" name="rscale"> 4
+                <input type="radio" name="rscale"> 5
+                <input type="radio" name="rscale"> 6
+                <input type="radio" name="rscale"> 7
+                <input type="radio" name="rscale"> 8
+                <input type="radio" name="rscale"> 9
+                <input type="radio" name="rscale"> 10
+
+                <br><br>
+
+                Have you known about the idea of Withermancy before?<br>
+                <input type="radio" name="ynw"> Yes
+                <input type="radio" name="ynw"> No
+
+                <br><br>
+
+                Do you think your relationships improved since Withermancy?<br>
+                If so, how did it improve?<br>
+                <textarea name="rtext" id="" cols="54" rows="3"></textarea>
+
+                <br><br>
+
+                Name something you think can still improve on (regarding life).<br>
+                <textarea name="rtext" id="" cols="55" rows="3"></textarea>
+
+                <br><br>
+
+                Back in school, what was your favorite subject?<br>
+                <select>
+                    <option>Mathematics</option>
+                    <option>English/Humanities</option>
+                    <option>Social Studies</option>
+                    <option>Physical Education</option>
+                    <option>Science</option>
+                    <option>Health</option>
+                    <option>Music</option>
+                    <option>school can suck deez nuts</option>
+                </select>
+
+                <br><br><hr>
+                <p><h3>Website Rating</h3></p>
+
+                On a scale of 1~10, how do you rate this website?<br> 
+                <input type="radio" name="wscale"> 1
+                <input type="radio" name="wscale"> 2
+                <input type="radio" name="wscale"> 3
+                <input type="radio" name="wscale"> 4
+                <input type="radio" name="wscale"> 5
+                <input type="radio" name="wscale"> 6
+                <input type="radio" name="wscale"> 7
+                <input type="radio" name="wscale"> 8
+                <input type="radio" name="wscale"> 9
+                <input type="radio" name="wscale"> 10
+
+                <br><br>
+
+                What was your favorite part about this website? <br>
+                <textarea name="rtext" id="" cols="54" rows="2"></textarea>
+
+                <br><br>
+
+                Name anything you think this website needs improvement on.<br>
+                <textarea name="rtext" id="" cols="54" rows="2"></textarea>
+
+                <br><br><hr>
+                <h3>MOST IMPORTANT QUESTION</h3>
+                What do you think personally is the most important part of Withermancy?<br>
+                <select>
+                    <option>Abilities</option>
+                    <option>Counter</option>
+                    <option>Healing</option>
+                    <option>Intelligence</option>
+                    <option>Recombulation</option>
+                    <option>Soulstealing</option>
+                    <option>Survival</option>
+                    <option>website can suck deez nuts</option>
+                </select>
+                
+                <br><br><hr>
+                <input type="submit" value="SUBMIT"/>
+
+            </fieldset>
+
+        </form>
+
+        <br><hr><br>
+            <form onclick="return confirm('Confirm Form Resubmission?');">
+                <input type="button" value="Go Back ◄" onclick="history.back()">
+            </form>
+    </body>
+</html>
