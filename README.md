@@ -1,2 +1,3 @@
 # Skynet-Network
-The Skynet Network, which regulates soulflow and allows optimized Withermancy performance.
+A website project which runs on Django 3.2.6, built on Python. Webpages are built on HTML, and the network currently has no CSS.
+This network helps regulates soulflow and allows optimized Withermancy performance.
